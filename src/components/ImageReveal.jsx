@@ -1,7 +1,7 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import aryan from "../assets/Aryan.jpg";
+import aryan from "../assets/aryan.jpg";
 import layer_aryan from "../assets/layer_aryan.png";
 import "./ImageReveal.css";
 
