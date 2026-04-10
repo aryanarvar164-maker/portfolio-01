@@ -87,4 +87,3 @@ const ImageReveal = () => {
 };
 
 export default ImageReveal;
-//update this one too
