@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import mess from "../assets/mess_manager_collage_2x2.png"
 import send from "../assets/send_vault_2x2.png"
 import blog from "../assets/blog_app_2x2.png"
-import bmw from "../assets/bmw.png"
+import bmw from "../assets/image.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,19 +13,19 @@ const Projects = () => {
   const mainProjects = [
     {
       id: "01",
-      title: "BMW Car_Guy (ON GOING)",
+      title: "BMW Car Showcase",
       desc: "Developed a modern frontend web application for car enthusiasts featuring interactive BMW 3D models, smooth animations, and engaging UI/UX to deliver an immersive digital experience.",
-      techStack: ["ReactJs","Three.js","React Three Fiber","GSAP", "Tailwind CSS"],
-      liveLink: "",
-      githubLink: "",
+      techStack: ["Next.js","TypeScript","MUX","Three.js","React Three Fiber","GSAP", "Tailwind CSS"<"Supabase"],
+      liveLink: "https://bmw-landing-page-puce.vercel.app/",
+      githubLink: "https://github.com/aryanarvar164-maker/BMW_landing_page",
       imgSrc: bmw,
     },
     {
       id: "02",
       title: "E-Mess Management System",
       desc: "Developed a full-stack E-Mess Management System for efficient meal tracking, user management, and order handling, featuring a responsive UI and secure backend.",
-      techStack: ["React Js", "express","MongoDB"],
-      liveLink: "",
+      techStack: ["React Js","TypeScript", "express","MongoDB"],
+      liveLink: "https://mess-management-ebon.vercel.app/auth",
       githubLink: "https://github.com/aryanarvar164-maker/Mess_Management",
       imgSrc: mess,
     },
