@@ -6,6 +6,7 @@ import mess from "../assets/mess_manager_collage_2x2.png"
 import send from "../assets/send_vault_2x2.png"
 import blog from "../assets/blog_app_2x2.png"
 import bmw from "../assets/image.png"
+import mits_oxp from "../assets/mits_oxp_ui_collage.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,6 +14,15 @@ const Projects = () => {
   const mainProjects = [
     {
       id: "01",
+      title: "MITS OXP — Campus Marketplace for Students (id - kiku05272@gmail.com, pass- kiku7890)",
+      desc: "A trust-first campus marketplace where students buy, sell, and share resources with each other — with built-in AI image moderation and text filtering so no one has to worry about inappropriate content or privacy exposure.",
+      techStack: ["Next.js 16" , "React 19" , "TypeScript" , "MongoDB/Mongoose" , "NextAuth" , "TensorFlow.js (NSFWJS)" , "Cloudinary" , "Tailwind CSS" , "shadcn/ui"],
+      liveLink: "https://mits-olx.vercel.app/",
+      githubLink: "https://github.com/aryanarvar164-maker/mits_olx",
+      imgSrc: mits_oxp,
+    },
+    {
+      id: "02",
       title: "BMW Car Showcase",
       desc: "Developed a modern frontend web application for car enthusiasts featuring interactive BMW 3D models, smooth animations, and engaging UI/UX to deliver an immersive digital experience.",
       techStack: ["Next.js","TypeScript","MUX","Three.js","React Three Fiber","GSAP", "Tailwind CSS"<"Supabase"],
@@ -21,8 +31,8 @@ const Projects = () => {
       imgSrc: bmw,
     },
     {
-      id: "02",
-      title: "E-Mess Management System",
+      id: "03",
+      title: "E-Mess Management System ",
       desc: "Developed a full-stack E-Mess Management System for efficient meal tracking, user management, and order handling, featuring a responsive UI and secure backend.",
       techStack: ["React Js","TypeScript", "express","MongoDB"],
       liveLink: "https://mess-management-ebon.vercel.app/auth",
@@ -30,7 +40,7 @@ const Projects = () => {
       imgSrc: mess,
     },
     {
-      id: "03",
+      id: "04",
       title: "Blog App",
       desc: "Built a full-stack blog platform with user authentication and CRUD operations, enabling users to create and manage posts with images and rich text editor. Designed a responsive UI with secure session handling and efficient content management.",
       techStack: ["React", "Github GraphQL Api", "Styled Component", "Chart Js", "Github Polyghot"],
@@ -39,7 +49,7 @@ const Projects = () => {
       imgSrc: blog,
     },
     {
-      id: "04",
+      id: "05",
       title: "Send Vault",
       desc: "Built a secure file-sharing web app enabling fast and private file transfers with encrypted data handling and user-friendly interface. Implemented efficient upload, access control, and seamless cross-device sharing.",
       techStack: ["React Js","Tailwind CSS" ,"express","MongoDB"],
